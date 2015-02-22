@@ -13,6 +13,8 @@
 		8491002B1A99A40E004DFE3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8491002A1A99A40E004DFE3D /* Images.xcassets */; };
 		8491002E1A99A40E004DFE3D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8491002C1A99A40E004DFE3D /* LaunchScreen.xib */; };
 		8491003A1A99A40F004DFE3D /* beautyGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849100391A99A40F004DFE3D /* beautyGalleryTests.swift */; };
+		849100441A99B8DA004DFE3D /* viewControlerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849100431A99B8DA004DFE3D /* viewControlerExtension.swift */; };
+		849100461A99C0C3004DFE3D /* GalleryViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849100451A99C0C3004DFE3D /* GalleryViewControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		849100331A99A40F004DFE3D /* beautyGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beautyGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849100381A99A40F004DFE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849100391A99A40F004DFE3D /* beautyGalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beautyGalleryTests.swift; sourceTree = "<group>"; };
+		849100431A99B8DA004DFE3D /* viewControlerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewControlerExtension.swift; sourceTree = "<group>"; };
+		849100451A99C0C3004DFE3D /* GalleryViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				8491002A1A99A40E004DFE3D /* Images.xcassets */,
 				8491002C1A99A40E004DFE3D /* LaunchScreen.xib */,
 				849100211A99A40E004DFE3D /* Supporting Files */,
+				849100431A99B8DA004DFE3D /* viewControlerExtension.swift */,
+				849100451A99C0C3004DFE3D /* GalleryViewControler.swift */,
 			);
 			path = beautyGallery;
 			sourceTree = "<group>";
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849100461A99C0C3004DFE3D /* GalleryViewControler.swift in Sources */,
+				849100441A99B8DA004DFE3D /* viewControlerExtension.swift in Sources */,
 				849100261A99A40E004DFE3D /* ViewController.swift in Sources */,
 				849100241A99A40E004DFE3D /* AppDelegate.swift in Sources */,
 			);
@@ -339,6 +347,7 @@
 				INFOPLIST_FILE = beautyGallery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -349,6 +358,7 @@
 				INFOPLIST_FILE = beautyGallery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
