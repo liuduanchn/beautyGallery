@@ -36,7 +36,7 @@ class ViewController: UIViewController {
             default:imageName = nil
             }
           var vc = segue.destinationViewController as GalleryViewControler
-            
+            //传递值
             vc.imageName = imageName
             
         }

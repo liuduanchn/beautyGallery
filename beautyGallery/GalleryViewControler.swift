@@ -39,7 +39,7 @@ class GalleryViewControler: UIViewController {
     
     @IBAction func shareTap(sender: AnyObject) {
         var controller: SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeFacebook )
-        controller.setInitialText("一起来玩段段的女神画廊app吧，就在: t.cn/newton123")
+        controller.setInitialText("一起来玩段段的女神画廊app吧，更多信息就在: t.cn/newton123")
         controller.addImage(beautyImage.image)
         self.presentViewController(controller, animated: true, completion: nil)
         

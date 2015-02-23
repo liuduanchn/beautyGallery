@@ -15,6 +15,7 @@
 		8491003A1A99A40F004DFE3D /* beautyGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849100391A99A40F004DFE3D /* beautyGalleryTests.swift */; };
 		849100441A99B8DA004DFE3D /* viewControlerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849100431A99B8DA004DFE3D /* viewControlerExtension.swift */; };
 		849100461A99C0C3004DFE3D /* GalleryViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849100451A99C0C3004DFE3D /* GalleryViewControler.swift */; };
+		8493C60A1A9B089A00882A76 /* koreanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493C6091A9B089A00882A76 /* koreanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		849100391A99A40F004DFE3D /* beautyGalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beautyGalleryTests.swift; sourceTree = "<group>"; };
 		849100431A99B8DA004DFE3D /* viewControlerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewControlerExtension.swift; sourceTree = "<group>"; };
 		849100451A99C0C3004DFE3D /* GalleryViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewControler.swift; sourceTree = "<group>"; };
+		8493C6091A9B089A00882A76 /* koreanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = koreanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,13 +84,14 @@
 			isa = PBXGroup;
 			children = (
 				849100231A99A40E004DFE3D /* AppDelegate.swift */,
+				849100451A99C0C3004DFE3D /* GalleryViewControler.swift */,
+				849100431A99B8DA004DFE3D /* viewControlerExtension.swift */,
 				849100251A99A40E004DFE3D /* ViewController.swift */,
-				849100271A99A40E004DFE3D /* Main.storyboard */,
 				8491002A1A99A40E004DFE3D /* Images.xcassets */,
 				8491002C1A99A40E004DFE3D /* LaunchScreen.xib */,
+				849100271A99A40E004DFE3D /* Main.storyboard */,
 				849100211A99A40E004DFE3D /* Supporting Files */,
-				849100431A99B8DA004DFE3D /* viewControlerExtension.swift */,
-				849100451A99C0C3004DFE3D /* GalleryViewControler.swift */,
+				8493C6091A9B089A00882A76 /* koreanViewController.swift */,
 			);
 			path = beautyGallery;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			files = (
 				849100461A99C0C3004DFE3D /* GalleryViewControler.swift in Sources */,
 				849100441A99B8DA004DFE3D /* viewControlerExtension.swift in Sources */,
+				8493C60A1A9B089A00882A76 /* koreanViewController.swift in Sources */,
 				849100261A99A40E004DFE3D /* ViewController.swift in Sources */,
 				849100241A99A40E004DFE3D /* AppDelegate.swift in Sources */,
 			);
@@ -415,6 +419,7 @@
 				8491003F1A99A40F004DFE3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849100401A99A40F004DFE3D /* Build configuration list for PBXNativeTarget "beautyGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				849100421A99A40F004DFE3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
