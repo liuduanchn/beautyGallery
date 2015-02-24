@@ -27,21 +27,21 @@ class koreanViewController: UIViewController {
     
     @IBAction func facebookShare(sender: AnyObject) {
         var controller: SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeFacebook )
-        controller.setInitialText("一起来玩段段的女神画廊app吧，就在: t.cn/newton123")
+        controller.setInitialText("一起来玩段段的女神画廊iOS-app吧，@娜娜要增肥 @囧珏就在: t.cn/newton123")
         controller.addImage(koreanBeauty.image)
         self.presentViewController(controller, animated: true, completion: nil)
     }
     
     @IBAction func twitterShare(sender: AnyObject) {
         var controller: SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeTwitter )
-        controller.setInitialText("一起来玩段段的女神画廊app吧，就在: t.cn/newton123")
+        controller.setInitialText("一起来玩段段的女神画廊iOS-app吧，就在: t.cn/newton123")
         controller.addImage(koreanBeauty.image)
         self.presentViewController(controller, animated: true, completion: nil)
     }
     
     @IBAction func sinaWeiboShare(sender: AnyObject) {
-        var controller: SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeSinaWeibo )
-        controller.setInitialText("一起来玩段段的女神画廊app吧，就在: t.cn/newton123")
+        var controller: SLComposeViewController = SLComposeViewController(forServiceType : SLServiceTypeSinaWeibo )
+        controller.setInitialText("一起来玩段段的女神画廊iOS-app吧，@OooO00o_ @biases @囧珏  这是宋智孝。")
         controller.addImage(koreanBeauty.image)
         self.presentViewController(controller, animated: true, completion: nil)
     }

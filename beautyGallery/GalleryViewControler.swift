@@ -38,8 +38,8 @@ class GalleryViewControler: UIViewController {
     }
     
     @IBAction func shareTap(sender: AnyObject) {
-        var controller: SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeFacebook )
-        controller.setInitialText("一起来玩段段的女神画廊app吧，更多信息就在: t.cn/newton123")
+        var controller: SLComposeViewController = SLComposeViewController(forServiceType : SLServiceTypeSinaWeibo )
+        controller.setInitialText("一起来玩段段的女神画廊iOS-app吧，@娜娜在增肥 @biases @ClassFoundException  这是\(navigationItem.title!)。")
         controller.addImage(beautyImage.image)
         self.presentViewController(controller, animated: true, completion: nil)
         

@@ -119,6 +119,7 @@
         <scene sceneID="Uom-15-ftQ">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Pzf-9V-Dx6" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <toolbarItems/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="a2E-mf-CeH">
